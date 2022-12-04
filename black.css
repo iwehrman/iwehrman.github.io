@@ -1,0 +1,61 @@
+body 
+{
+/*   background-color: #996699; */
+  background-color: #111;
+  font-size: 1.5em;
+  font-family: Trebuchet MS, sans-serif;
+/*   color: #222222; */
+  color: #996699;
+  line-height: 1.4em;
+  margin-top: 1em;
+}
+
+p { margin: 0.5em 0 0.5em 0 }
+
+a 
+{
+  text-decoration: none;
+  color: #eebe00;
+  font-size: 1em;
+}
+
+a:hover 
+{
+  color: #ffee66 ! important;
+}
+
+a:active 
+{
+  color: #ffff9d;
+}
+
+blockquote 
+{
+  text-align: justify;
+  font-size: medium;
+  line-height: 1.2em;
+  margin-left: 2em;
+  margin-right: 8em;
+}
+
+ol { font-size: x-large; line-height: 1.3em }
+
+li 
+{
+  padding-bottom: 10px;
+}
+
+.date-modified 
+{ 
+  font-size: small; 
+  color: #222; 
+  font-style: italic; 
+  padding-top: 50px 
+}
+
+.main 
+{ 
+text-align: left; 
+margin-left: 18%; 
+margin-right: 18%;
+}

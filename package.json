@@ -1,0 +1,24 @@
+{
+  "name": "www.wehrman.org",
+  "version": "0.0.1",
+  "description": "www.wehrman.org",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iwehrman/www.wehrman.org.git"
+  },
+  "author": "Ian Wehrman",
+  "bugs": {
+    "url": "https://github.com/iwehrman/www.wehrman.org/issues"
+  },
+  "homepage": "https://github.com/iwehrman/www.wehrman.org",
+  "dependencies": {
+    "serf": "0.0.9"
+  },
+  "engines": {
+    "node": "12.13.x"
+  }
+}

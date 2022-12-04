@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/iwehrman
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.wehrman.org
+  * I am iwehrman (https://keybase.io/iwehrman) on keybase.
+  * I have a public key with fingerprint AB76 2652 8CE3 27C0 2840  9B21 CB22 3BF6 AA45 4B45
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "ab7626528ce327c028409b21cb223bf6aa454b45",
+            "host": "keybase.io",
+            "key_id": "cb223bf6aa454b45",
+            "uid": "4a5f9ee6901770567008238975928700",
+            "username": "iwehrman"
+        },
+        "service": {
+            "hostname": "www.wehrman.org",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1399669288,
+    "expire_in": 157680000,
+    "prev": "0445d88e93742ad50ec21de0d3a34813a341a78ce76cec6f7cb5b78000299ae1",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.14
+Comment: https://keybase.io/crypto
+
+yMHpAnicbZFbSBRvGMZ3PWS7Fphpa4GEI5nJts75sCRkHuiEaBYk1H/5Zvbb3UGd
+WWdWV1uV1MCbQrtIuuhA4o1JRYK22QENAyExMsQMKw0NIbuplb+glt8sdtdczMf7
+fL/ned+Zd3RnrMlq/qSHTh9+23fN/GY4Umsqrz6WHcJE1d2AOUNYJYweHlnxQs2v
+yUoAc2JA5FiSZUheghTJSTjJ07ggkoQkkiQlelgAaIYWaQazYz5VNxwoRgQ6dMgq
+0lDhkt1I/QdfG72gAeMRIGQFnOA4nGE5HOdJihc4RiB5VBigDjUFVENEy0Ho06qB
+gjXZMaTWyRJSQ9HWW0QwGHRsQQ5V8yK7X1MDqqRWoUtfIOB3Gt5Agz8KQ9G1FeMS
+ZcWNPh0Z6qCmy6qCOQlESgHZyCUoQWBZNBJvx2C9X9agSzYIhmN5HD1GG1iHInGa
+Ztw8DwWKo0ngZnAokYQb4m4KUDRPGG8CcOh3cqwEJdbDSSIjckYGKQgAEqi/DmsU
+FXNSaEzgRZG67FVAoFaDWNOr4QtxJrPVtC0+xlieyWpJ+rvS7ZMJ64nzfaVtX4JJ
+97WZ8bWciYdt1iXzSknhixtFmfDQ7pcF9tWp2+HK3OT+YpvvZ3FN/kFQNvi5ytdr
+ahrvkUaynO2vLQ9iKvK+s5H/FzoqCuc/ZuxX14pmz52aOpO2Lz9msWW8cejOLqw+
+fTZ58nJq+YHVrJSB5+3dZRw42p29fjyvIGdMqtSaB5ofKc6WXFus+qOxo/ipJfJ1
+h1meGwu3NF5NubhnY7rr2WDCqC2sv7On2+Z6uheSK55MpD2eopas/cu/L1GZ4dYT
+1z/cq1lZ7MzszMuIK/l2/sjQrQ3L2d6+93F/9kaUu8Er07/+m0ltjR85udyVWM5W
+2c2O0jn55iaL7Q7R
+=se2a
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/iwehrman
+
+==================================================================

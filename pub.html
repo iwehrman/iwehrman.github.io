@@ -1,0 +1,640 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+  <title>Ian Wehrman | Publications</title>
+  <link rel="stylesheet" type="text/css" href="dark.css" title="dark">
+  <link rel="alternate stylesheet" type="text/css" href="purple.css" title="purple">
+  <script src="//use.edgefonts.net/source-sans-pro;source-code-pro;source-serif-pro.js"></script>
+</head>
+
+<body>
+
+
+
+<div style="margin-left: 18%; margin-right: 18%;">
+
+
+  <a href="cv.pdf">Vita</a> &middot;
+  <a href="#pub">Publications</a> &middot;
+  <a href="#submitted">In preparation</a> &middot;
+  <a href="#tr">Technical reports</a> &middot; 
+  <a href="#notes">Notes</a>
+
+
+
+  <div style="text-align: center; padding: 1.5em">
+  <img src="squares2.gif" /></div>
+  
+  <a name="pub">
+  Refereed publications:</a>
+  
+  <ol reversed>
+
+      
+      <li>
+      Ian Wehrman and Josh Berdine<br />
+      
+      <a name=lola href = "pub/lola.pdf">&ldquo;A Proposal for Weak-Memory Local
+      Reasoning&rdquo;</a><br />
+
+      <i>Syntax and Semantics of Low-Level Languages (LOLA)</i>, 2011.
+
+      <blockquote>
+
+      Program logics are formal systems for specifying and reasoning
+  about software programs. Most program logics make the strong
+  assumption that all threads agree on the value of shared memory at
+  all times. This assumption can be unsound though for programs with
+  races, like many concurrent data structures. Verification of these
+  difficult programs must take into account the weaker models of
+  memory provided by the architectures on which they execute. In this
+  paper, we describe progress toward a program logic for local
+  reasoning about racy concurrent programs executing on a weak,
+  x86-like memory model.
+
+      </blockquote>
+      <a href = "pub/lola-talk.pdf">Slides</a>
+      
+      </li>
+
+    <li>
+
+    <!--span style="color: #BCE1F3;">&laquo;accepted&raquo;</span-->
+    Tony Hoare, Bernhard M&ouml;ller, Georg Struth, Ian Wehrman<br />
+    
+    <a href = "pub/relmics09.pdf">&ldquo;Foundations of Concurrent Kleene Algebra&rdquo;</a><br />
+    
+    <i>International Conference on Relational Methods in Computer Science / International Conference on Applications of Kleene Algebra</i>, November 2009. 
+    
+    <blockquote> 
+
+A Concurrent Kleene Algebra offers two composition
+operators, one that stands for sequential execution and the other for
+concurrent execution. In this paper we investigate the abstract
+background of this law in terms of independence relations on which a
+concrete trace model of the algebra is based. Moreover, we show the
+interdependence of the basic properties of such relations and two
+further laws that are essential in the application of the algebra to a
+Jones style rely/guarantee calculus.  Finally we reconstruct the trace
+model in a more abstract setting based on the notion of atoms from
+lattice theory.
+    </blockquote>
+    
+    </li>
+
+
+    <li>
+
+    <!--span style="color: #BCE1F3;">&laquo;accepted&raquo;</span-->
+    Tony Hoare, Bernhard M&ouml;ller, Georg Struth, Ian Wehrman<br />
+    
+    <a href = "pub/concur09.pdf">&ldquo;Concurrent Kleene Algebra&rdquo;</a><br />
+    
+    <i>International Conference on Concurrency Theory</i>, September 2009. 
+    
+    <blockquote>
+
+        A concurrent Kleene algebra offers, next to choice and
+        iteration, operators for sequential and concurrent
+        composition, related by an inequational form of the exchange law. We
+        show applicability of the algebra to a partially-ordered trace model
+        of program execution semantics and demonstrate its usefulness by
+        validating familiar proof rules for sequential programs (Hoare
+        triples) and for concurrent ones (Jones's rely/guarantee
+        calculus). This involves an algebraic notion of invariants; for these
+        the exchange inequation strengthens to an equational distributivity
+        law. Most of our reasoning has been checked by computer.
+
+    </blockquote>
+    
+    </li>
+
+
+    <li>
+
+    <!--span style="color: #BCE1F3;">&laquo;accepted&raquo;</span-->
+    Ian Wehrman, Tony Hoare, Peter O'Hearn<br />
+    
+    <a href = "pub/graphical-models.pdf">&ldquo;Graphical Models of Separation Logic&rdquo;</a><br />
+    
+    <i>Information Processing Letters</i>, June 2009. 
+    
+    <blockquote>
+
+    In this paper, we present a trace semantics based on graphs: nodes
+    represent the events of a program's execution, and edges represent
+    dependencies among the events. The style is reminiscent of
+    partially ordered models, though we do not generally require
+    properties like transitivity or acyclicity. Concurrency and
+    sequentiality are defined using variations on separating
+    conjunctions, which are instances of model theories of separation
+    logic and bunched logic. The model has pleasant algebraic
+    properties, which are shown with surprisingly simple proofs. We
+    present a number of theorems about the generic model, including
+    the soundness of the laws of Hoare logic and the Jones
+    rely/guarantee calculus. No particular languages or applications
+    are studied in the paper; we leave this to future work.
+
+    </blockquote>
+
+    <a href="http://dx.doi.org/10.1016/j.ipl.2009.06.003">DOI</a>. <a
+href="pub/marktoberdorf-2008.pdf">Longer version</a> with proofs and
+examples for the proceedings of the 2008 Marktoberdorf Summer School.
+    
+    </li>
+
+
+        <li>
+
+    Ian Wehrman, David Kitchin, William R. Cook and Jayadev Misra<br />
+
+    <a href = "pub/tcs07.pdf">&ldquo;A Timed Semantics of
+    Orc&rdquo;</a><br />
+    
+    <i>Theoretical Computer Science</i> 402(2-3), pp234-248, 2008.
+    
+    <blockquote>
+
+    Orc is a language for structured concurrent
+    programming. Expressions in an Orc program are either primitive,
+    or a combination of two expressions. A primitive expression calls
+    an existing service, a site, which performs its computations and
+    returns a result. There are only three combinators for Orc
+    expressions, which allow sequential and concurrent executions of
+    expressions, and concurrent execution with termination.<br/><br/>
+
+    Orc is particularly well-suited for task orchestration, a form of
+    concurrent programming with applications in workflow, business
+    process management, and web service orchestration. Orc provides
+    constructs to orchestrate the concurrent invocation of services
+    while managing time-outs, priorities, and failures of services or
+    communication.<br/><br/>
+
+    Previous work on the semantics of Orc has treated only its
+    asynchronous behavior. The inclusion of time or the effect of
+    delay on a computation has not yet been modeled. In this paper, we
+    define a relative-time operational semantics of Orc that allows
+    reasoning about delays, which are introduced explicitly by
+    time-based constructs or implicitly by network delays. We develop
+    a number of identities among Orc expressions and define an
+    equality relation that is a congruence. For the simpler case of
+    asynchronous semantics without time, we develop additional results
+    about monotonicity and continuity of the Orc combinators, which
+    are used to assign meanings to recursive Orc programs.
+
+
+    </blockquote>
+
+    <a href="http://dx.doi.org/10.1016/j.tcs.2008.04.037">DOI</a>. <a href = "pub/webs08.pdf">Excerpt</a> and <a href =
+    "pub/webs08-talk.pdf">slides</a> for the Workshop on
+    Event-Based Semantics.
+    
+    </li>
+
+    
+    <li>
+
+    Sajeeva Pallemulle, Ian Wehrman and Kenneth Goldman<br />
+
+    <a href = "pub/pdcs06.pdf">&ldquo;Byzantine Fault Tolerant
+    Execution of Long-Running Distributed Applications&rdquo;</a><br />
+    
+    <i>International Conference on Parallel and Distributed Computing
+    and Systems</i>, 2006.
+    
+    <blockquote>
+
+    Long-running distributed applications that automate critical
+    decision processes require Byzantine fault tolerance to ensure
+    progress in spite of arbitrary failures. Existing replication
+    protocols for data servers guarantee that externally requested
+    operations execute correctly even if a bounded number of replicas
+    fail arbitrarily. However, since these protocols only support
+    passive state machine replication, they are insufficient to
+    support continued correct execution of autonomous long-running
+    distributed applications.<br/><br/>
+    
+    Building on the Castro and Liskov Byzantine Fault Tolerance
+    protocol for replicated state machines (CLBFT), we present a
+    practical algorithm for Byzantine fault-tolerant execution of
+    autonomous distributed applications.  The algorithm supports
+    replicated clients that actively execute application logic by
+    issuing operation requests on replicated data servers as well as
+    other replicated clients.  Our work facilitates dynamic upgrades
+    to replica groups, supports both synchronous and asynchronous
+    operation requests, and provides fault isolation between replica
+    groups with respect to both correctness and performance. The
+    algorithm scales well to large replica groups with only twice the
+    latency and message complexity as compared to CLBFT, which
+    supports only unreplicated clients.
+    
+    </blockquote>
+
+
+
+    </li>
+    
+
+    <li>
+
+    <!-- span style="color: #BCE1F3;">&laquo;accepted&raquo;</span -->
+    Ian Wehrman, Aaron Stump and Edwin Westbrook<br />
+
+    <a href = "pub/rta06.pdf">&ldquo;<span style="font-variant:
+    small-caps;">Slothrop</span>: Knuth-Bendix Completion with a Modern
+    Termination Checker&rdquo;</a><br />
+    
+    <i>International Conference on Rewriting Techniques and
+    Applications</i>, 2006.
+    
+    <blockquote>
+
+    A Knuth-Bendix completion procedure is parametrized by a reduction
+    ordering used to ensure termination of intermediate and resulting
+    rewriting systems. While in principle any reduction ordering can be
+    used, modern completion tools typically implement only Knuth-Bendix
+    and path orderings. Consequently, the theories for which completion
+    can possibly yield a decision procedure are limited to those that can
+    be oriented with a single path order.<br/><br/>
+  
+    In this paper, we present a variant on the Knuth-Bendix completion
+    procedure in which no ordering is assumed. Instead we rely on a
+    modern termination checker to verify termination of rewriting
+    systems. The new method is correct if it terminates; the resulting
+    rewrite system is convergent and equivalent to the input
+    theory. Completions are also not just ground-convergent, but fully
+    convergent. We present an implementation of the new procedure,
+    <span style="font-variant: small-caps;">Slothrop</span>, which
+    automatically obtains such completions for theories that do not
+    admit path orderings.
+    
+    </blockquote>
+
+    <a href = "pub/rta06-talk.pdf">Slides</a> and <a href="slothrop.html">software</a>
+
+
+    </li>
+
+    
+
+    
+
+
+
+    
+    <li>
+
+    Aaron Stump and Ian Wehrman <br />
+
+    <a href = "pub/fool06.pdf">&ldquo;Property Types: Semantic
+    Programming for Java&rdquo;</a><br />
+    
+    <i>International Workshop on Foundations and
+    Developments of Object-Oriented Languages</i>, 2006.
+    
+    <blockquote>
+    Dependent types have been proposed for functional programming
+    languages as a means of expressing semantically rich properties
+    as types. In this paper, we consider the problem of bringing
+    semantic programming based on dependent types to an
+    object-oriented language. A type-theoretically light extension
+    to Java (with generics) is proposed, called <i>property
+    types</i>. These are types indexed not by other types (as in
+    Java with generics) but by immutable expressions. We consider
+    programming with two examples of property types: a property type
+    HasFactors&lt;long <i>x</i>, Set <i>a</i>&gt;, expressing that
+    the elements of <i>a</i> are the multiplicative factors
+    of <i>x</i>; and a property type Sorted&lt;List <i>l</i>&gt;,
+    expressing that <i>l</i> is sorted.
+    </blockquote>
+
+
+    </li>
+
+
+    <li>
+
+    Edwin Westbrook, Aaron Stump and Ian Wehrman<br />
+
+    <a href = "pub/rsp1-icfp05.pdf">&ldquo;A Language-based Approach to
+    Functionally Correct Imperative Programming&rdquo;</a><br />
+
+    <i>10th ACM SIGPLAN International Conference Functional
+    Programming</i>, 2005.
+
+    <blockquote> In this paper a language-based approach to functionally
+    correct imperative programming is proposed. The approach is based on
+    a programming language called RSP1, which combines dependent types,
+    general recursion, and imperative features in a type-safe way, while
+    preserving decidability of type checking. The methodology used is
+    that of internal verification, where programs manipulate
+    programmer-supplied proofs explicitly as data. The fundamental
+    technical idea of RSP1 is to identify problematic operations as
+    impure, and keep them out of dependent types. The resulting language
+    is powerful enough to verify statically non-trivial properties of
+    imperative and functional programs. The paper presents the ideas
+    through the examples of statically verified merge sort, statically
+    verified imperative binary search trees, and statically verified
+    directed acyclic graphs.
+    </blockquote>
+
+    </li>
+
+    
+    <li>
+
+
+    Ian Wehrman and Aaron Stump <br />
+
+    <a href = "pub/pdpar05.pdf">&ldquo;Mining Propositional
+    Simplification Proofs for Small Validating Clauses&rdquo;</a><br />
+    
+    <i>3rd Workshop on Pragmatics of Decision Procedures in Automated
+    Reasoning</i>, 2005.
+
+    <blockquote> The problem of obtaining small conflict clauses in SMT
+    systems has received a great deal of attention recently. We report
+    work in progress to find small subsets of the current partial
+    assignment that imply the goal formula when it has been
+    propositionally simplified to a boolean value. The approach used is
+    algebraic proof mining. Proofs from a propositional reasoner that the
+    goal is equivalent to a boolean value (in the current assignment) are
+    viewed as first-order terms. An equational theory between proofs is
+    then defined, which is sound with respect to the quasi-order
+    &ldquo;proves a more general set theorems.&rdquo; The theory is
+    completed to obtain a convergent rewrite system that puts proofs into
+    a canonical form. While our canonical form does not use the smallest
+    subset of the current assignment, it does drop many unnecessary parts
+    of the proof. The paper concludes with discussion of the complexity of
+    the problem and effectiveness of the approach.</blockquote>
+    <a href = "pub/pdpar05-talk.pdf">Slides</a>
+    </li>
+
+
+  </ol>
+
+
+
+  
+  <div style="text-align: center; padding: 1.5em">
+  <img src="squares2.gif" /></div>
+  
+  <a name="submitted">
+  In preparation:</a>
+
+  <ol reversed="reversed">
+
+            <li> 
+        Ian Wehrman<br />
+
+	<a href = "pub/dissertation.pdf">&ldquo;Weak-Memory Local Reasoning&rdquo;</a> (Dissertation draft)<br />
+
+        <blockquote>Program logics are formal logics designed to facilitate specification and correctness reasoning for software programs. Separation logic, a recent program logic for C-like programs, has found great success in automated verification due in large part to its embodiment of the principle of local reasoning, in which specifications and proofs are restricted to just those resources&mdash;variables, shared memory addresses, locks, etc.&mdash;used by the program during execution. <br/><br/>
+
+Existing program logics make the strong assumption that all threads agree on the values of shared memory at all times. But, on modern computer architectures, this assumption is unsound for certain shared-memory concurrent programs: namely, those with races. Typically races are considered to be errors, but some programs, like lock-free concurrent data structures, are necessarily racy. Verification of these difficult programs must take into account the weaker models of memory provided by the architectures on which they execute. <br/><br/>
+
+This dissertation project seeks to explicate a local reasoning principle for x86-like architectures. The principle is demonstrated with a new program logic for concurrent C-like programs that incorporates ideas from separation logic. The goal of the logic is to allow verification of racy programs like concurrent data structures for which no general-purpose high-level verification techniques exist.</blockquote>
+
+	<a href = "pub/defense.pdf">Slides</a>
+        </li>
+
+  <!--li>Nothing right now! </li--> 
+  </ol>
+  
+  <div style="text-align: center; padding: 1.5em">
+  <img src="squares2.gif" /></div>
+  
+  <a name="tr">
+  Technical reports and theses:</a>
+
+  <ol reversed="reversed">
+
+        <li> 
+        Ian Wehrman<br />
+
+        <a href = "pub/proposal.pdf">&ldquo;Weak-Memory Local Reasoning&rdquo;</a> (Dissertation proposal)<br />
+
+        <blockquote>
+        Program logics are formal logics designed to facilitate specification
+and correctness reasoning for software programs of a particular
+programming language. Separation logic, a new program logic for C-like
+pointer programs, has found great success due in large part to its
+embodiment of a <i>local reasoning</i> principle, in which
+specifications and proofs are restricted to just those
+resources---variables, shared memory addresses, locks---used by the
+program during execution.<br /><br />
+
+Existing program logics make the strong assumption that all
+threads agree on the value of shared memory at all times. This
+assumption is unsound, though, for shared-memory concurrent programs
+with race conditions, like concurrent data structures. Verification of
+these difficult programs must take into account the weaker models of
+memory provided by the architectures on which they execute.<br /><br />
+
+In my dissertation project, I explicate a local reasoning principle
+for a weak memory model based on a formal specification of the x86
+multiprocessor memory model. I demonstrate this principle with a new
+program logic for fine-grained concurrent C-like programs that
+incorporates ideas from separation logic and rely/guarantee. Notably,
+the logic may be applied soundly to programs with races, for which no
+general high-level verification techniques exist.
+        </blockquote>
+        </li>
+
+        <li> 
+        Ian Wehrman<br />
+
+        <a href = "http://apps.cs.utexas.edu/tech_reports/reports/tr/TR-2076.pdf">&ldquo;Semantics and Syntax of a Weak-Memory Separation Logic: Sequential Fragment&rdquo;</a><br />
+
+University of Texas at Austin, Department of Computer Sciences, TR-2076</br>
+
+        <blockquote>
+
+        A sequential program logic based on separation logic is
+        defined and proved sound w.r.t. a weak x86-like memory model. 
+        
+        </blockquote>
+        </li>
+
+
+    <li>
+
+    Ian Wehrman, David Kitchin, William R. Cook, and Jayadev Misra<br />
+    
+    <a href = "pub/tcs07-tr.pdf">&ldquo;Properties of the Timed
+    Operational and Denotational Semantics of Orc&rdquo;</a><br />
+
+    University of Texas at Austin, Department of Computer Sciences,
+    TR-07-65<br/>
+    
+    <blockquote>
+
+    Orc is a language for structured concurrent programming. Orc
+    provides three powerful combinators that define the structure of a
+    concurrent computation. These combinators support sequential and
+    concurrent execution, and concurrent execution with blocking and
+    termination.<br/><br/>
+
+    Orc is particularly well-suited for task orchestration, a form of
+    concurrent programming with applications in workflow, business
+    process management, and web service orchestration. Orc provides
+    constructs to orchestrate the concurrent invocation of services
+    while managing time-outs, priorities, and failures of services or
+    communication.<br/><br/>
+
+    Previous work on the semantics of Orc has focused on its
+    asynchronous behavior. In this report, we define a relative-time
+    operational semantics of Orc that allows reasoning about delays,
+    which are introduced explicitly by time-based constructs or
+    implicitly by network delays. We develop a number of identities
+    among Orc expressions and define an equality relation that is a
+    congruence. We also develop a denotational semantics for Orc, in
+    which the meaning of an Orc expression is a set of traces. A
+    number of properties about the semantics are shown here, including
+    equivalence of the operational and denotational semantics.
+
+    </blockquote>
+    
+    </li>
+    
+    <li>
+
+    Ian Wehrman<br />
+
+    <a href = "pub/thesis-wehrman.pdf">&ldquo;Knuth-Bendix Completion with
+    Modern Termination Checking&rdquo;</a><br />
+    
+    Master's thesis, Washington University in
+    St. Louis. WUCSE-2006-45. August, 2006. 
+    
+    <blockquote>
+
+    Knuth-Bendix completion is a technique for equational automated
+    theorem proving based on term rewriting. This classic procedure is
+    parametrized by an equational theory and a (well-founded)
+    reduction order used at runtime to ensure termination of
+    intermediate rewriting systems. Any reduction order can be used in
+    principle, but modern completion tools typically implement only a
+    few classes of such orders (e.g., recursive path orders and
+    polynomial orders). Consequently, the theories for which
+    completion can possibly succeed are limited to those compatible
+    with an instance of an implemented class of orders. Finding and
+    specifying a compatible order, even among a small number of
+    classes, is challenging in practice and crucial to the success of
+    the method.<br/><br/>
+  
+    In this thesis, a new variant on the Knuth-Bendix completion
+    procedure is developed in which no order is provided by the
+    user. Modern termination-checking methods are instead used to
+    verify termination of rewriting systems. We prove the new method
+    correct and also present an implementation called <span
+    style="font-variant: small-caps;">Slothrop</span> which obtains
+    solutions for theories that do not admit typical orders and that
+    have not previously been solved by a fully automatic tool.
+    
+    </blockquote>
+
+    <a href="pub/thesis-defense.pdf">Slides</a> and <a href="slothrop.html">software</a>
+
+    </li>
+
+    <li>
+
+    Ian Wehrman, Sajeeva Pallemulle and Kenneth Goldman<br />
+
+    <a href =
+    "http://www.cse.seas.wustl.edu/techreportfiles/getreport.asp?495">&ldquo;Extending
+    Byzantine Fault Tolerance to Replicated Clients&rdquo;</a><br />
+    
+    WUCSE-2006-7. February, 2006.
+    
+    <blockquote>
+
+    Byzantine agreement protocols for replicated deterministic state
+    machines guarantee that externally requested operations continue
+    to execute correctly even if a bounded number of replicas fail in
+    arbitrary ways.  The state machines are passive, with clients
+    responsible for any active ongoing application behavior.  However,
+    the clients are unreplicated and outside the fault-tolerance
+    boundary.  Consequently, agreement protocols for replicated state
+    machines do not guarantee continued correct execution of
+    long-running client applications.<br /><br />
+  
+    Building on the Castro and Liskov Byzantine Fault Tolerance
+    protocol for unreplicated clients (CLBFT), we present a practical
+    algorithm for Byzantine fault-tolerant execution of long-running
+    distributed applications in which replicated deterministic clients
+    invoke operations on replicated deterministic servers. The
+    algorithm scales well to large replica groups, with roughly double
+    the latency and message count when compared to CLBFT, which
+    supports only unreplicated clients.  The algorithm supports both
+    synchronous and asynchronous clients, provides fault isolation
+    between client and server groups with respect to both correctness
+    and performance, and uses a novel architecture that accommodates
+    externally requested software upgrades for long-running evolvable
+    client applications.
+
+    </blockquote>
+
+    </li>
+
+        <li>
+
+    Edwin Westbrook, Aaron Stump and Ian Wehrman<br />
+
+    <a href = "http://www.cse.seas.wustl.edu/techreportfiles/getreport.asp?459">&ldquo;A Language-based Approach to
+    Functionally Correct Imperative Programming&rdquo;</a><br />
+
+    WUCSE-2005-32. July, 2005. 
+
+    <blockquote> In this paper a language-based approach to functionally
+    correct imperative programming is proposed. The approach is based on
+    a programming language called RSP1, which combines dependent types,
+    general recursion, and imperative features in a type-safe way, while
+    preserving decidability of type checking. The methodology used is
+    that of internal verification, where programs manipulate
+    programmer-supplied proofs explicitly as data. The fundamental
+    technical idea of RSP1 is to identify problematic operations as
+    impure, and keep them out of dependent types. The resulting language
+    is powerful enough to verify statically non-trivial properties of
+    imperative and functional programs. The paper presents the ideas
+    through the examples of statically verified merge sort, statically
+    verified imperative binary search trees, and statically verified
+    directed acyclic graphs.
+    </blockquote>
+    
+    </li>
+    
+  </ol>  
+
+  <div style="text-align: center; padding: 1.5em">
+  <img src="squares2.gif" /></div>
+  
+  <a name="notes">
+  Unpublished notes:</a>
+
+  <ol reversed="reversed">
+
+    <li>
+    <a href = "pub/jar-slothrop.pdf">Knuth-Bendix Completion with a 
+    Termination Checker</a><br /> January 2007.
+    </li>
+    
+    <li>
+    <a href="pub/ms-wqo.pdf">Higman's Theorem and Multiset
+    Orders</a><br/> October 2006.
+    </li>
+    
+  </ol>
+  
+
+</div>
+
+
+<script src="http://www.google-analytics.com/urchin.js"
+type="text/javascript"> </script> <script type="text/javascript">
+_uacct = "UA-627534-1"; urchinTracker(); </script>
+</body>
+
+</html>

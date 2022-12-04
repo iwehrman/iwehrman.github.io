@@ -1,0 +1,52 @@
+body 
+{
+  background-color: #996699;
+  font-size: x-large;
+  font-family: Trebuchet MS, sans-serif;
+  color: #222222;
+  line-height: 1.2em;
+}
+
+a 
+{
+  text-decoration: none;
+  color: #eebe00;
+  font-size: xx-large;
+}
+
+a:hover 
+{
+  color: #ffee66 ! important;
+}
+
+a:active 
+{
+  color: #ffff9d;
+}
+
+blockquote 
+{
+  text-align: justify;
+  font-size: medium;
+  line-height: 1em;
+}
+
+li 
+{
+  padding-bottom: 10px;
+}
+
+.date-modified 
+{ 
+  font-size: small; 
+  color: #775577;
+  font-style: italic; 
+  padding-top: 50px 
+}
+
+.main 
+{ 
+text-align: justify; 
+margin-left: 18%; 
+margin-right: 18%;
+}
